@@ -33,7 +33,7 @@ The app has no real backend and resets its data on every login, so tests always 
 In a second terminal, set up this automation project:
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/AshfatAbegh/teebay-buggy-automation.git
 cd teebay-buggy-automation
 npm install
 npx playwright install chromium

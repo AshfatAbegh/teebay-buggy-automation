@@ -1,6 +1,6 @@
 # Teebay-Buggy — Bug Report
 
-**Tested by:** Ashfat Abegh
+**Tested by:** Ashfat Al Rashid
 **Application:** Teebay-Buggy (https://github.com/erahmanSazim/teebay-buggy)
 **Environment tested:** Local build (`npm start`, `http://localhost:3000`), Chromium via Playwright, plus manual verification in the built-in browser
 **Test account:** `testuser@teebay.com` / `123456`
