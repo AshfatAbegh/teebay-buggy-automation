@@ -1,0 +1,19 @@
+{
+  "name": "teebay-buggy-automation",
+  "version": "1.0.0",
+  "description": "Positive-path and validation automation for Teebay-Buggy, plus a curated list of confirmed bugs as failing specs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "test:bugs": "playwright test tests/specs/knownBugs.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}
